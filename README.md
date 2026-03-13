@@ -2,12 +2,8 @@
 <h3 align="center">Beginner Python Learner • Exploring Tech One Step at a Time</h3>
 
 <p align="center">
-  https://github.com/thu-morrissey?tab=followers
-    https://img.shields.io/github/followers/thu-morrissey?logo=github&style=for-the-badge
-  </a>
-  https://komarev.com/ghpvc/?username=thu-morrissey
-    https://komarev.com/ghpvc/?username=thu-morrissey&style=for-the-badge&color=blue
-  </a>
+  <img src="https://img.shields.io/github/followers/thu-morrissey?logo=github&style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=thu-morrissey&style=for-the-badge&color=blue" />
 </p>
 
 ---
@@ -32,13 +28,13 @@ I believe in **progress over perfection** — small steps count!
 ### 🛠️ Tools & Technologies I'm Learning
 
 <p>
-  https://img.shields.io/badge/Learning-Python-3776AB?style=flat&logo=python&logoColor=white
-  https://img.shields.io/badge/Learning-Git-F05032?style=flat&logo=git&logoColor=white
-  https://img.shields.io/badge/Learning-GitHub-181717?style=flat&logo=github&logoColor=white
-  https://img.shields.io/badge/Learning-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white
-  https://img.shields.io/badge/Power_Automate-0066FF?style=flat&logo=microsoft-power-automate&logoColor=white
-  https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=power-bi&logoColor=black
-  https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white
+  <img src="https://img.shields.io/badge/Learning-Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Learning-Git-F05032?style=flat&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Learning-GitHub-181717?style=flat&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Learning-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_Automate-0066FF?style=flat&logo=microsoft-power-automate&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=power-bi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white" />
 </p>
 
 *(Still learning every day!)*
@@ -62,11 +58,11 @@ More coming soon as I keep learning!
 ### 📈 GitHub Stats (Learning in Public)
 
 <p align="center">
-  https://github-readme-stats.vercel.app/api?username=thu-morrissey&show_icons=true&theme=transparent&hide_border=true
+  <img src="https://github-readme-stats.vercel.app/api?username=thu-morrissey&show_icons=true&theme=transparent&hide_border=true" />
 </p>
 
 <p align="center">
-  https://github-readme-stats.vercel.app/api/top-langs/?username=thu-morrissey&layout=compact&theme=transparent&hide_border=true
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thu-morrissey&layout=compact&theme=transparent&hide_border=true" />
 </p>
 
 ---
@@ -74,15 +70,11 @@ More coming soon as I keep learning!
 ### 🤝 Connect With Me
 
 <p>
-  mailto:thu.morrissey@exyte.net
-    https://img.shields.io/badge/Email-thu.morrissey%40exyte.net-red?style=flat&logo=gmail&logoColor=white
-  </a>
-
-  https://linkedin.com/in/thumorrissey
-    https://img.shields.io/badge/LinkedIn-Thumorrissey-0A66C2?style=flat&logo=linkedin&logoColor=white
+  <a href="mailto:thu.morrissey@exyte.net">
+    <img src="https://img.shields.io/badge/Email-thu.morrissey%40exyte.net-red?style=flatColor=white" />
   </a>
 </p>
 
 <p align="right">
-  https://img.shields.io/badge/Always%20Learning-💡-yellow?style=flat
+  <img src="https://img.shields.io/badge/Always%20Learning-💡-yellow?style=flat" />
 </p>
