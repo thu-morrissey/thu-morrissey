@@ -78,3 +78,9 @@ More coming soon as I keep learning!
 <p align="right">
   <img src="https://img.shields.io/badge/Always%20Learning-💡-yellow?style=flat" />
 </p>
+
+---
+
+![snake animation](https://raw.githubusercontent.com/thu-morrissey/thu-morrissey/output/snake-dark.svg?cachebuster=1)
+
+
