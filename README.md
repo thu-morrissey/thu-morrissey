@@ -64,6 +64,10 @@ More coming soon as I keep learning!
 
 ---
 
-![snake animation](https://raw.githubusercontent.com/thu-morrissey/thu-morrissey/output/snake-dark.svg?cachebuster=1)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="httpssey/output/snake-dark.gif
+  <source media="(prefers-color-scheme:-morrissey/thu-morrissey/output/snake.gif
+  https://raw.githubusercontent.com/thu-morrissey/thu-morrissey/output/snake.gif
+</picture>
 
 
