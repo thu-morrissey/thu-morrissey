@@ -24,10 +24,10 @@ jobs:
         with:
           github_user_name: thu-morrissey
           outputs: |
-            dist/snake.gif
-            dist/snake-dark.gif?palette=github-dark
-
-
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake.gif?color_snake=purple&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9&color_background=#0d1117
+                   
       - name: Upload animation artifacts
         uses: actions/upload-artifact@v4
         with:
