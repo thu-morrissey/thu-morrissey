@@ -24,9 +24,8 @@ jobs:
         with:
           github_user_name: thu-morrissey
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
             dist/snake.gif
+            dist/snake-dark.gif?palette=github-dark
 
 
       - name: Upload animation artifacts
