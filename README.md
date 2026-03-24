@@ -1,11 +1,6 @@
 <h1 align="center">Hi there 👋 I'm Thu Morrissey</h1>
 <h3 align="center">Beginner Python Learner • Exploring Tech One Step at a Time</h3>
 
-<p align="center">
-  <img src="https://img.shields.io/github/followers/thu-morrissey?logo=github&style=for-the-badge" />
-  <img src="https://komarev.com/ghpvc/?username=thu-morrissey&style=for-the-badge&color=blue" />
-</p>
-
 ---
 
 ### 🌱 About Me
@@ -52,18 +47,6 @@ Small projects helping me practice fundamentals:
 - 📋 **Text‑based To‑Do List** – lists + conditionals  
 
 More coming soon as I keep learning!
-
----
-
-### 📈 GitHub Stats (Learning in Public)
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=thu-morrissey&show_icons=true&theme=transparent&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thu-morrissey&layout=compact&theme=transparent&hide_border=true" />
-</p>
 
 ---
 
