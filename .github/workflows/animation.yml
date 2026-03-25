@@ -27,6 +27,16 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif?color_snake=purple&color_dots=#0d1117,#01311f,#034525,#0f6d31,#00c647&color_background=#0d1117
+
+      - name: Debug outputs string (make sure & is not encoded)
+        run: |
+          echo "INPUT_OUTPUTS from environment:"
+          echo "${INPUT_OUTPUTS}"
+        env:
+          INPUT_OUTPUTS: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=purple&color_dots=#0d1117,#01311f,#034525,#0f6d31,#00c647&color_background=#0d1117
                  
       - name: Upload animation artifacts
         uses: actions/upload-artifact@v4
