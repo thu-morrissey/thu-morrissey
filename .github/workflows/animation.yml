@@ -26,7 +26,7 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?color_snake=purple&color_dots=#0d1117,#01311f,#034525,#0f6d31,#00c647&color_background=#0d1117
+            dist/github-contribution-grid-snake.gif
 
       - name: Debug outputs string (make sure & is not encoded)
         run: |
@@ -36,19 +36,13 @@ jobs:
           INPUT_OUTPUTS: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?color_snake=purple&color_dots=#0d1117,#01311f,#034525,#0f6d31,#00c647&color_background=#0d1117
+            dist/github-contribution-grid-snake.gif
 
-      - name: Verify GIF is animated
+      - name: Check GIF frame count (no PIL)
         run: |
-          ls -lh dist
-          file dist/github-contribution-grid-snake.gif || true
-          python - << 'PY'
-          from PIL import Image
-          img = Image.open("dist/github-contribution-grid-snake.gif")
-          print("format:", img.format)
-          print("frames:", getattr(img, "n_frames", 1))
-          print("animated:", getattr(img, "is_animated", False))
-          PY
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+          identify -format "%n\n" dist/github-contribution-grid-snake.gif | head -n 1
                  
       - name: Upload animation artifacts
         uses: actions/upload-artifact@v4
