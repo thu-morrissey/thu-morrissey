@@ -65,9 +65,15 @@ More coming soon as I keep learning!
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="httpssey/output/snake-dark.gif
-  <source media="(prefers-color-scheme:-morrissey/thu-morrissey/output/snake.gif
-  https://raw.githubusercontent.com/thu-morrissey/thu-morrissey/output/snake.gif
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/thu-morrissey/thu-morrissey/output/github-contribution-grid-snake-dark.svg" />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/thu-morrissey/thu-morrissey/output/github-contribution-grid-snake.svg" />   
+  <img
+    alt="GitHub contribution snake animation"
+    src="output/snake.gif" />
 </picture>
 
 
