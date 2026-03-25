@@ -22,28 +22,11 @@ jobs:
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: UnknownNikki
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake-light.svg?palette=github-light
 
-      - name: Debug outputs string (make sure & is not encoded)
-        run: |
-          echo "INPUT_OUTPUTS from environment:"
-          echo "${INPUT_OUTPUTS}"
-        env:
-          INPUT_OUTPUTS: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif
-
-      - name: Check GIF frame count (no PIL)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y imagemagick
-          identify -format "%n\n" dist/github-contribution-grid-snake.gif | head -n 1
-                 
       - name: Upload animation artifacts
         uses: actions/upload-artifact@v4
         with:
